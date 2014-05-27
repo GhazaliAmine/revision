@@ -6,7 +6,6 @@ import org.junit.Before;
 import org.junit.Test;
 
 public class ClassTest {
-
 	private Revision revision;
 
 	@Before
@@ -16,9 +15,13 @@ public class ClassTest {
 	}
 
 	@Test
-	public void itShouldReturnString() {
+	public void itShouldReturn1when2entred() {
+		assertEquals(1, revision.process(2));
+	}
 
-		assertEquals("how are you MAN", revision.sayHello("hi"));
+	@Test
+	public void itShouldReturn2when3entred() {
+		assertEquals(2, revision.process(3));
 	}
 
 }
