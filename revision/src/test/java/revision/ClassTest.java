@@ -18,7 +18,7 @@ public class ClassTest {
 	@Test
 	public void itShouldReturnString() {
 
-		assertEquals("how are you", revision.sayHello("hi"));
+		assertEquals("how are you MAN", revision.sayHello("hi"));
 	}
 
 }
