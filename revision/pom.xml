@@ -28,6 +28,16 @@
 			<url>http://www.apache.org/licenses/LICENSE-2.0.html</url>
 		</license>
 	</licenses>
+	<distributionManagement>
+
+		<repository>
+			<id>nexus</id>
+			<name>nexus</name>
+			<url>http://localhost:8081/nexus/content/repositories/snapshots/</url>
+		</repository>
+
+	</distributionManagement>
+
 
 	<properties>
 		<!-- Explicitly declaring the source encoding eliminates the following 
